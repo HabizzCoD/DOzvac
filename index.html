@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Bootstrap Demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="assets/css/style.css"
+    />
+
+    <!-- icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+
+    <!-- aos -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/aos@next/dist/aos.css"
+    />
+  </head>
+
+  <body>
+    <!-- navbar start -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container my-2">
+          <a
+            class="navbar-brand fs-4 fw-semibold"
+            href="#"
+            >DOzvac</a
+          >
+          <button
+            class="navbar-toggler collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="toggler-icon top-bar"></span>
+            <span class="toggler-icon middle-bar"></span>
+            <span class="toggler-icon bottom-bar"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav ms-auto mb-2 me-4 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#about"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#services"
+                  >Services</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#others"
+                  >Others</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#blogs"
+                  >Blogs</a
+                >
+              </li>
+            </ul>
+
+            <div class="row">
+              <div class="col navButton">
+                <a
+                  href="#"
+                  class="btn btn-success d-flex justify-content-center"
+                  role="button"
+                  >Sign In</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- navbar end -->
+
+    <!-- Home start -->
+    <section id="home">
+      <div class="container text-white">
+        <div class="row justify-content-between align-items-center text-start">
+          <div class="col-lg-6">
+            <h1 class="fw-semibold">Selamat Datang di Website DOzvac</h1>
+            <p style="color: #999999">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, in consequatur. Facilis voluptate placeat eligendi veniam harum a voluptatibus cupiditate.</p>
+
+            <div class="bump mt-5 d-flex justify-content-start">
+              <a
+                href="#about"
+                class="nav-link"
+                role="button"
+                ><span>Get Started</span><i></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="wave">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 320"
+        >
+          <path
+            fill="#d29c27"
+            fill-opacity="1"
+            d="M0,288L48,272C96,256,192,224,288,213.3C384,203,480,213,576,192C672,171,768,117,864,101.3C960,85,1056,107,1152,128C1248,149,1344,171,1392,181.3L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+          ></path>
+        </svg>
+      </div>
+    </section>
+    <!-- Home end -->
+
+    <!-- About start -->
+    <section
+      id="about"
+      class="timeline_area section_padding_130"
+    >
+      <div class="container">
+        <div class="row pt-3 text-white">
+          <div
+            class="col-sm-3 text-center pb-4"
+            data-aos="zoom-in"
+            data-aos-duration="200"
+          >
+            <h2 class="fw-semibold">2353</h2>
+            <p>Doloribus</p>
+          </div>
+
+          <div
+            class="col-sm-3 text-center pb-4"
+            data-aos="zoom-in"
+            data-aos-duration="800"
+          >
+            <h2 class="fw-semibold">5234</h2>
+            <p>Laudantium</p>
+          </div>
+
+          <div
+            class="col-sm-3 text-center pb-4"
+            data-aos="zoom-in"
+            data-aos-duration="1400"
+          >
+            <h2 class="fw-semibold">6976</h2>
+            <p>Reiciendis</p>
+          </div>
+
+          <div
+            class="col-sm-3 text-center"
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+          >
+            <h2 class="fw-semibold">4875</h2>
+            <p>Pariatur</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About end -->
+
+    <!-- Services start -->
+
+    <section id="services">
+      <div class="wave">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 320"
+        >
+          <path
+            fill="#d29c27"
+            fill-opacity="1"
+            d="M0,288L48,272C96,256,192,224,288,213.3C384,203,480,213,576,192C672,171,768,117,864,101.3C960,85,1056,107,1152,128C1248,149,1344,171,1392,181.3L1440,192L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+          ></path>
+        </svg>
+      </div>
+
+      <div class="container text-white">
+        <div class="row">
+          <div class="col-lx-12">
+            <div class="card">
+              <div class="card-body">
+                <div class="row justify-content-center mt-4">
+                  <div
+                    class="col-xl-5 col-lg-8"
+                    data-aos="fade-up"
+                    data-aos-duration="600"
+                  >
+                    <div class="text-center">
+                      <h3 class="fw-bold">Frequently Asked Questions?</h3>
+                      <p>If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual</p>
+                    </div>
+                  </div>
+                  <!-- end col -->
+                </div>
+                <!-- end row -->
+                <div
+                  class="row justify-content-center mt-5"
+                  data-aos="flip-right"
+                  data-aos-duration="1000"
+                >
+                  <div class="col-9">
+                    <ul
+                      class="nav nav-tabs nav-tabs-custom nav-justified justify-content-center faq-tab-box"
+                      id="pills-tab"
+                      role="tablist"
+                    >
+                      <li
+                        class="nav-item"
+                        role="presentation"
+                      >
+                        <button
+                          class="nav-link fw-semibold active"
+                          id="pills-genarel-tab"
+                          data-bs-toggle="pill"
+                          data-bs-target="#pills-genarel"
+                          type="button"
+                          role="tab"
+                          aria-controls="pills-genarel"
+                          aria-selected="true"
+                        >
+                          <span class="font-size-16">General Questions</span>
+                        </button>
+                      </li>
+                      <li
+                        class="nav-item"
+                        role="presentation"
+                      >
+                        <button
+                          class="nav-link fw-semibold"
+                          id="pills-privacy_policy-tab"
+                          data-bs-toggle="pill"
+                          data-bs-target="#pills-privacy_policy"
+                          type="button"
+                          role="tab"
+                          aria-controls="pills-privacy_policy"
+                          aria-selected="false"
+                        >
+                          <span class="font-size-16">Privacy Policy</span>
+                        </button>
+                      </li>
+                      <li
+                        class="nav-item"
+                        role="presentation"
+                      >
+                        <button
+                          class="nav-link fw-semibold"
+                          id="pills-teachers-tab"
+                          data-bs-toggle="pill"
+                          data-bs-target="#pills-pricing_plan"
+                          type="button"
+                          role="tab"
+                          aria-controls="pills-pricing_plan"
+                          aria-selected="false"
+                        >
+                          <span class="font-size-16">Pricing &amp; Plans</span>
+                        </button>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-9">
+                    <div
+                      class="tab-content pt-3"
+                      id="pills-tabContent"
+                    >
+                      <div
+                        class="tab-pane fade active show"
+                        id="pills-genarel"
+                        role="tabpanel"
+                        aria-labelledby="pills-genarel-tab"
+                      >
+                        <div class="row g-4 mt-2">
+                          <div class="col-lg-6">
+                            <h5 class="fw-semibold">What is Lorem Ipsum ?</h5>
+                            <p>
+                              If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages. The new common language will be more simple and regular than the existing
+                            </p>
+                          </div>
+                          <div class="col-lg-6">
+                            <h5 class="fw-semibold">Why do we use it ?</h5>
+                            <p>Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary.</p>
+                          </div>
+                          <div class="col-lg-6">
+                            <h5 class="fw-semibold">Where does it come from ?</h5>
+                            <p>
+                              If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages. The new common language will be more simple and regular than the existing
+                            </p>
+                          </div>
+                          <div class="col-lg-6">
+                            <h5 class="fw-semibold">Where can I get some?</h5>
+                            <p class="lg-base">If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div
+                        class="tab-pane fade"
+                        id="pills-privacy_policy"
+                        role="tabpanel"
+                        aria-labelledby="pills-privacy_policy-tab"
+                      >
+                        <div class="row g-4 mt-2">
+                          <div class="col-lg-6">
+                            <h5 class="fw-semibold">Where can I get some ?</h5>
+                            <p class="lg-base">
+                              If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages. The new common language will be more simple and regular than the existing
+                            </p>
+                          </div>
+                          <div class="col-lg-6">
+                            <h5 class="fw-semibold">Where does it come from ?</h5>
+                            <p class="lg-base">
+                              If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages. The new common language will be more simple and regular than the existing
+                            </p>
+                          </div>
+                          <div class="col-lg-6">
+                            <h5 class="fw-semibold">Why do we use it ?</h5>
+                            <p class="lg-base">
+                              If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages. The new common language will be more simple and regular than the existing
+                            </p>
+                          </div>
+                          <div class="col-lg-6">
+                            <h5 class="fw-semibold">What is Genius privacy policy</h5>
+                            <p class="lg-base">
+                              If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages. The new common language will be more simple and regular than the existing
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="tab-pane fade"
+                        id="pills-pricing_plan"
+                        role="tabpanel"
+                      >
+                        <div class="row g-4 mt-4">
+                          <div class="col-lg-6">
+                            <h5 class="fw-semibold">Where does it come from ?</h5>
+                            <p class="lg-base">
+                              If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages. The new common language will be more simple and regular than the existing
+                            </p>
+                          </div>
+                          <div class="col-lg-6">
+                            <h5 class="fw-semibold">Why do we use it ?</h5>
+                            <p class="lg-base">
+                              If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages. The new common language will be more simple and regular than the existing
+                            </p>
+                          </div>
+                          <div class="col-lg-6">
+                            <h5 class="fw-semibold">What is Lorem Ipsum ?</h5>
+                            <p class="lg-base">
+                              If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages. The new common language will be more simple and regular than the existing
+                            </p>
+                          </div>
+                          <div class="col-lg-6">
+                            <h5 class="fw-semibold">What is Lorem Ipsum?</h5>
+                            <p class="lg-base">
+                              If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages. The new common language will be more simple and regular than the existing
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- end row -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="wave">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 320"
+        >
+          <path
+            fill="#d29c27"
+            fill-opacity="1"
+            d="M0,288L48,272C96,256,192,224,288,213.3C384,203,480,213,576,192C672,171,768,117,864,101.3C960,85,1056,107,1152,128C1248,149,1344,171,1392,181.3L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+          ></path>
+        </svg>
+      </div>
+    </section>
+    <!-- Services end -->
+
+    <!-- Others start -->
+    <section
+      id="others"
+      class="timeline_area section_padding_130"
+    >
+      <div class="container">
+        <div class="row justify-content-between align-items-center pt-3 text-white">
+          <div
+            class="col-lg-6 text-start mb-4"
+            data-aos="fade-right"
+            data-aos-duration="400"
+          >
+            <h1 class="fw-bold">Corporis expedita alias possimus praesentium at!</h1>
+          </div>
+
+          <div
+            class="col-lg-6 text-center"
+            data-aos="zoom-in"
+            data-aos-duration="1400"
+          >
+            <div class="d-flex justify-content-end">
+              <h3>
+                <a
+                  href="#"
+                  class="nav-link fw-semibold"
+                  role="button"
+                  >See more</a
+                >
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Others end -->
+
+    <!-- Blogs start -->
+    <section
+      id="blogs"
+      class="mb-5"
+    >
+      <div class="wave">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 320"
+        >
+          <path
+            fill="#d29c27"
+            fill-opacity="1"
+            d="M0,288L48,272C96,256,192,224,288,213.3C384,203,480,213,576,192C672,171,768,117,864,101.3C960,85,1056,107,1152,128C1248,149,1344,171,1392,181.3L1440,192L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+          ></path>
+        </svg>
+      </div>
+
+      <div class="container">
+        <div class="row justify-content-center text-center mt-5 mb-5">
+          <div
+            class="col-xl-5 col-lg-8"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          >
+            <h3 class="fw-bold">Mollitia ab aliquid delectus</h3>
+            <p>Provident explicabo animi reiciendis corrupti quas ipsa asperiores ex illo, nihil aspernatur harum! Natus repudiandae rerum ducimus, eos placeat excepturi!</p>
+          </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4 text-white">
+          <div
+            class="col"
+            data-aos="flip-right"
+            data-aos-duration="200"
+          >
+            <div class="card">
+              <img
+                src="https://source.unsplash.com/400x300?smartphone"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Dolore itaque</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col"
+            data-aos="flip-right"
+            data-aos-duration="600"
+          >
+            <div class="card">
+              <img
+                src="https://source.unsplash.com/400x300?bycicle"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Veritatis ullam</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col"
+            data-aos="flip-right"
+            data-aos-duration="1000"
+          >
+            <div class="card">
+              <img
+                src="https://source.unsplash.com/400x300?cars"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Similique nesciunt</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Blogs end -->
+
+    <footer
+      class="w-100 py-4 flex-shrink-0"
+      id="footer"
+    >
+      <div class="container py-4">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 text-white">
+            <h5 class="h1 fw-semibold">DOzvac</h5>
+            <p class="small">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, labore est. Sunt voluptate quidem error aspernatur fugiat consequatur minus facere.</p>
+
+            <p class="small"><i class="bi bi-envelope-fill"></i> DOzvacmyweb@gmail.com</p>
+            <p class="small"><i class="bi bi-geo-alt-fill"></i> Jl. Buibatu Kompleks Perkantoran PEMDA</p>
+          </div>
+          <div class="col-lg-2 col-md-6 text-white">
+            <h5 class="mb-3 fw-semibold">Menu Tag</h5>
+            <a
+              href="#"
+              class="nav-link text-muted m-1 mb-3"
+            >
+              Home
+            </a>
+            <a
+              href="#about"
+              class="nav-link text-muted m-1 mb-3"
+            >
+              About
+            </a>
+            <a
+              href="#services"
+              class="nav-link text-muted m-1 mb-3"
+            >
+              Services
+            </a>
+            <a
+              href="#others"
+              class="nav-link text-muted m-1 mb-3"
+            >
+              Others
+            </a>
+            <a
+              href="#blogs"
+              class="nav-link text-muted m-1 mb-3"
+            >
+              Blogs
+            </a>
+          </div>
+
+          <div class="col-lg-2 col-md-6 text-white">
+            <h5 class="mb-3 fw-semibold">Services</h5>
+            <a
+              href="#"
+              class="nav-link text-muted m-1 mb-3"
+            >
+              Personal
+            </a>
+            <a
+              href="#about"
+              class="nav-link text-muted m-1 mb-3"
+            >
+              Traveler
+            </a>
+            <a
+              href="#services"
+              class="nav-link text-muted m-1 mb-3"
+            >
+              Designer
+            </a>
+            <a
+              href="#others"
+              class="nav-link text-muted m-1 mb-3"
+            >
+              Education
+            </a>
+            <a
+              href="#blogs"
+              class="nav-link text-muted m-1 mb-3"
+            >
+              Programming
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 text-white">
+            <h5 class="mb-3 fw-semibold">Contact Me</h5>
+
+            <div class="mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="username@gmail.com"
+              />
+            </div>
+            <div class="mb-3">
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+                placeholder="Typing...."
+              ></textarea>
+            </div>
+
+            <a
+              href="#"
+              class="btn btn-success"
+              role="button"
+              >Submit</a
+            >
+          </div>
+
+          <div class="text-center text-white mt-5">
+            <p class="small mb-0">&copy; Copyrights. All rights reserved. Created by HabisCoding using <span style="color: #7952b3">bootstrap5</span>.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
